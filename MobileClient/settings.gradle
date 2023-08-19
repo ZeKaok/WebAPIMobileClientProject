@@ -12,5 +12,9 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+<<<<<<< HEAD
 rootProject.name = "httpclient"
+=======
+rootProject.name = "HttpClient"
+>>>>>>> HttpClient
 include ':app'
