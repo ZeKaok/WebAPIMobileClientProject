@@ -5,8 +5,13 @@
     "anonymousAuthentication": true,
     "iisExpress": {
 <<<<<<< HEAD
+<<<<<<< HEAD
       "applicationUrl": "http://localhost:60483",
       "sslPort": 44389
+=======
+      "applicationUrl": "http://localhost:5746",
+      "sslPort": 44343
+>>>>>>> WebAPI
 =======
       "applicationUrl": "http://localhost:5746",
       "sslPort": 44343
@@ -20,7 +25,11 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "applicationUrl": "http://localhost:5083",
+=======
+      "applicationUrl": "http://localhost:5203",
+>>>>>>> WebAPI
 =======
       "applicationUrl": "http://localhost:5203",
 >>>>>>> WebAPI
@@ -34,7 +43,11 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
 <<<<<<< HEAD
+<<<<<<< HEAD
       "applicationUrl": "https://localhost:7109;http://localhost:5083",
+=======
+      "applicationUrl": "https://localhost:7220;http://localhost:5203",
+>>>>>>> WebAPI
 =======
       "applicationUrl": "https://localhost:7220;http://localhost:5203",
 >>>>>>> WebAPI
