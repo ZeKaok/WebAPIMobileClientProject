@@ -1,7 +1,0 @@
-<resources>
-<<<<<<< HEAD
-    <string name="app_name">httpclient</string>
-=======
-    <string name="app_name">HttpClient</string>
->>>>>>> HttpClient
-</resources>
