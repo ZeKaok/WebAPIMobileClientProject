@@ -1,5 +1,6 @@
 package Adapter
 
+import android.annotation.SuppressLint
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.appcompat.view.menu.MenuView.ItemView
@@ -10,12 +11,12 @@ import com.example.httpclient.databinding.ItemBinding
 
 class RecyclerviewAdapter:RecyclerView.Adapter<RecyclerviewAdapter.ViewHolder>() {
     class ViewHolder(binding: ItemBinding) : RecyclerView.ViewHolder(binding.root)
-    
+
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val inflater=LayoutInflater.from(parent.context)
-        val view= DataBindingUtil.inflate<ItemBinding>(inflater, R.layout.item,parent,false)
-            return  ViewHolder(view)
+        val inflater = LayoutInflater.from(parent.context)
+        val binding = ItemBinding.inflate(inflater, parent, false)
+        return ViewHolder(binding)
     }
 
     override fun getItemCount(): Int {
