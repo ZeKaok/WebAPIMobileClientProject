@@ -61,9 +61,10 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="view" />
+      <recent name="Adapter" />
       <recent name="viewmodel" />
       <recent name="model" />
-      <recent name="view" />
     </key>
   </component>
   <component name="RunManager">

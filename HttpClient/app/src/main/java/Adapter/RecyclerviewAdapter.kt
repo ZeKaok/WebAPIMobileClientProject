@@ -8,8 +8,9 @@ import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
 import com.example.httpclient.R
 import com.example.httpclient.databinding.ItemBinding
+import model.Data
 
-class RecyclerviewAdapter:RecyclerView.Adapter<RecyclerviewAdapter.ViewHolder>() {
+class RecyclerviewAdapter(val Data:List<Data>):RecyclerView.Adapter<RecyclerviewAdapter.ViewHolder>() {
     class ViewHolder(binding: ItemBinding) : RecyclerView.ViewHolder(binding.root)
 
 
@@ -20,10 +21,10 @@ class RecyclerviewAdapter:RecyclerView.Adapter<RecyclerviewAdapter.ViewHolder>()
     }
 
     override fun getItemCount(): Int {
-        TODO("Not yet implemented")
+        return Data.size
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        TODO("Not yet implemented")
+        holder.itemView.
     }
 }
