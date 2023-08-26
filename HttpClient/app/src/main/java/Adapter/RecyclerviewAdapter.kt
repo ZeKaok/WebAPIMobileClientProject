@@ -11,7 +11,7 @@ import com.example.httpclient.databinding.ItemBinding
 import model.Data
 
 class RecyclerviewAdapter(val Data:List<Data>):RecyclerView.Adapter<RecyclerviewAdapter.ViewHolder>() {
-    class ViewHolder(binding: ItemBinding) : RecyclerView.ViewHolder(binding.root)
+    class ViewHolder(val binding: ItemBinding) : RecyclerView.ViewHolder(binding.root)
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -25,6 +25,9 @@ class RecyclerviewAdapter(val Data:List<Data>):RecyclerView.Adapter<Recyclerview
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.itemView.
+        holder.binding.date.text=Data[position].date.toString()
+        holder.binding.summary.text=Data[position].date.toString()
+        holder.binding.temperaturec.text=Data[position].date.toString()
+        holder.binding.temperaturef.text=Data[position].date.toString()
     }
 }
