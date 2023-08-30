@@ -30,9 +30,9 @@ class RecyclerviewAdapter(val Data:List<Data>):RecyclerView.Adapter<Recyclerview
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.binding.date.text=Data[position].date.toString()
-        holder.binding.summary.text=Data[position].date.toString()
-        holder.binding.temperaturec.text=Data[position].date.toString()
-        holder.binding.temperaturef.text=Data[position].date.toString()
+        holder.binding.summary.text=Data[position].summary.toString()
+        holder.binding.temperaturec.text=Data[position].temperatureC.toString()
+        holder.binding.temperaturef.text=Data[position].temperatureF.toString()
     }
 
     override fun registerDataSetObserver(p0: DataSetObserver?) {
