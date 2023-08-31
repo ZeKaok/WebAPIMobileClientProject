@@ -1,4 +1,10 @@
 package view
 
-class SelectionSort {
+import model.Data
+
+class SelectionSort(Data:List<Data>) {
+
+    fun SelectionSortfun(){
+
+    }
 }
