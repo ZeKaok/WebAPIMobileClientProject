@@ -13,7 +13,7 @@ import model.Data
 class MainActivity : AppCompatActivity() {
 
     private lateinit var recyclerView: RecyclerView
-    private lateinit var list: MutableList<Data>
+    private lateinit var list: List<Int> = List<Data>
     private lateinit var binding: ActivityMainBinding
     private lateinit var adapter: RecyclerviewAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
