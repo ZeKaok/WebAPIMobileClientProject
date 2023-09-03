@@ -12,7 +12,7 @@ import model.Data
 
 class MainActivity : AppCompatActivity() {
 
-    private lateinit var recyclerView: RecyclerView
+    private lateinit var recyclerview: RecyclerView
     private lateinit var list: List<Data>
     private lateinit var binding: ActivityMainBinding
     private lateinit var adapter: RecyclerviewAdapter
