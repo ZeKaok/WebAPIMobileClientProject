@@ -5,6 +5,6 @@ import model.Data
 import retrofit2.http.GET
 
 interface API {
-    @GET("WeatherForecast")
+    @GET("WeatherForeCast")
     fun getweather(): Single<List<Data>>
 }

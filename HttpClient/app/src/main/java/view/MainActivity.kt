@@ -13,7 +13,7 @@ import model.Data
 class MainActivity : AppCompatActivity() {
 
     private lateinit var recyclerView: RecyclerView
-    private lateinit var list: List<Int> = List<Data>
+    private lateinit var list: List<Data>
     private lateinit var binding: ActivityMainBinding
     private lateinit var adapter: RecyclerviewAdapter
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         binding= ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         binding.recyclerview.setHasFixedSize(true)
+        list= listOf()
         adapter=RecyclerviewAdapter(list)
         binding.recyclerview.adapter= adapter
         binding.recyclerview.layoutManager=LinearLayoutManager(this)
